@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+trip-planner-backend/node_modules/
+
+# Production build artifacts
+dist/
+dist-ssr/
+
+# Environment files & secrets
+.env
+.env.*
+!.env.example
+trip-planner-backend/.env
+trip-planner-backend/.env.*
+!trip-planner-backend/.env.example
+
+# Local storage and runtime data
+trip-planner-backend/users.json
+
+# Local installations & logs
+.local/
+wget-log
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor & OS directories
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
